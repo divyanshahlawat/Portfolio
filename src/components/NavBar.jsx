@@ -12,7 +12,7 @@ function NavBar() {
     
     ];
     return (
-        <div className="w-full h-20 bg-black text-white flex fixed items-center justify-between px-4">
+        <div className="w-full h-20 bg-black text-white flex fixed items-center justify-between px-4    ">
             <div><h1 className="text-5xl font-signature ml-2">Divyansh</h1></div>   
             <ul className="hidden md:flex">
                 {links.map((link)=>  <li key={link.id}className="px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105">{link.link}</li>)}

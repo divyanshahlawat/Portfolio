@@ -2,7 +2,7 @@ import HeroImage from "../assets/HeroImage.png"
 import { MdKeyboardArrowRight } from "react-icons/md";
 function Home() {
     return (
-    <div className="bg-gradient-to-b from-black via-black to-gray-800 w-full h-screen">
+    <div className="bg-gradient-to-b from-black via-black to-gray-800 w-full h-screen ">
         
         <div className="text-white flex flex-col pt-12 max-w-full justify-center h-full md:flex-row md:items-center md:max-w-7xl md:mx-auto">
           <div className="md:p-6 ">
